@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "struckstudios-terminal"
+version = "1.0.0"
+description = "A Python terminal made by GoodStruckdDev"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "LicenseRef-Custom"
+license-files = ["LICENSE"]
+authors = [
+  {name = "GoodStruckdDev"}
+]
+
+[project.scripts]
+struckstudios = "struckstudios:main"
+
+[tool.setuptools]
+py-modules = ["struckstudios"]
